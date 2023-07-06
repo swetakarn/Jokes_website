@@ -1,0 +1,21 @@
+.joke_card {
+  background-color: #ffffff;
+  color: hsl(240, 28%, 44%);
+  border-radius: 10px;
+  padding: 50px 30px;
+  margin: 15px 10px;
+  height: 180px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-title,
+.card-para {
+  margin: 0;
+ 
+}
+
+.card-container.modal-open {
+  background-color: rgba(0, 0, 0, 0.5);
+}
